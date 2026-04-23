@@ -1,0 +1,21 @@
+# Loại bỏ các thư mục chứa dữ liệu nặng
+data/
+datasets/
+*.zip
+*.csv
+*.h5
+*.pth
+*.jpg
+*.png
+
+# Loại bỏ môi trường ảo (để máy bạn chạy thôi, không đưa lên git)
+venv/
+env/
+__pycache__/
+
+# Loại bỏ các file checkpoint của Jupyter Notebook
+.ipynb_checkpoints/
+
+# Loại bỏ các file cấu hình IDE
+.vscode/
+.idea/
