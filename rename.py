@@ -45,12 +45,5 @@ def rename_images_in_folder(folder_path):
 
     print(f"\nHoàn tất! Đã đổi tên thành công {count - 1} file ảnh.")
 
-
-# ==========================================
-# CÁCH SỬ DỤNG:
-# Bạn chỉ cần thay đổi biến 'duong_dan_thu_muc' thành đường dẫn chứa ảnh của bạn.
-# Lưu ý: Thêm chữ 'r' phía trước chuỗi đường dẫn trên Windows để tránh lỗi ký tự đặc biệt.
-# ==========================================
-
 duong_dan_thu_muc = r"data\Phở_bò"
 rename_images_in_folder(duong_dan_thu_muc)
