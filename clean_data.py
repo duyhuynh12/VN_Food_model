@@ -87,6 +87,6 @@ def comprehensive_data_cleaning(dataset_dir):
 
 if __name__ == "__main__":
 
-    PATH_TO_DATA = r'D:\Learn Python\Vietnamese_Food_Project\data'
-
+    #PATH_TO_DATA = r'D:\Learn Python\Vietnamese_Food_Project\data'
+    PATH_TO_DATA = r'D:/Dataset_Food_Project'
     comprehensive_data_cleaning(PATH_TO_DATA)
